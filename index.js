@@ -46,14 +46,14 @@ function moveball() {
     // ball.style.top = y == true ? top + 4 + "px" : ball.style.top = top - 4 + "px";
     // ball.style.left = x == true ? left + 4 + "px" : ball.style.left = left - 4 + "px";
     if (yCheck) {
-        ball.style.top = top + 8 + "px";
+        ball.style.top = top + 16 + "px";
     } else {
-        ball.style.top = top - 8 + "px";
+        ball.style.top = top - 16 + "px";
     }
     if (xCheck) {
-        ball.style.left = left + 8 + "px";
+        ball.style.left = left + 16 + "px";
     } else {
-        ball.style.left = left - 8 + "px";
+        ball.style.left = left - 16 + "px";
     }
     requestAnimationFrame(moveball);
 }
